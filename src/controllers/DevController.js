@@ -3,6 +3,8 @@ const Dev = require("../models/Dev");
 
 const parseStringAsArray = require("../utils/parseStringAsArray");
 
+const { filterConnections, sendMessage } = require("../websocket");
+
 module.exports = {
   async index(request, response) {
     const devs = await Dev.find();
@@ -39,6 +41,13 @@ module.exports = {
         techs: techsArray,
         location
       });
+
+      const sendSocketMessageTo = filterConnections(
+        { latitude, longitude },
+        techsArray
+      );
+
+      sendMessage(sendSocketMessageTo, "new-dev", dev);
     }
 
     response.json(dev);

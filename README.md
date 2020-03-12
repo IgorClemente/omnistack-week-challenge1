@@ -27,29 +27,31 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-descrição">Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#hammer-iniciando-a-aplicação">Iniciando aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
 ## :rocket: Descrição
 
-Aplicação Backend desenvolvida no modelo RestFul para Barbearias, o cliente através do aplicativo Mobile busca um horário disponível na agenda do prestador de serviços, no caso, o Barbeiro. O Barbeiro tem acesso a sua agenda através da interface WEB, onde ele visualiza quem ele vai atender em determinado horário - Essa aplicação executa no servidor [NodeJS](https://nodejs.org/en/).
-
-Nesse módulo utilizei a aplicação desenvolvida previamente. Nele aplico alguns patterns para organizar o código, e utilizo o redis para cache de requisições.
-
 ### Rotas
 
-- `POST /users`: Rota responsável por criar o usuário dentro da plataforma, utilize os seguintes parâmetros: `name` : Nome Completo, `email` : E-mail no formato `example@example.com`, `password` : Senha com 6 digítos, alfanumérica, `provider` : `true` ou `false` indicando se o usuário criado é provedor de serviço ou não. `Exemplo`:
+- `GET /devs`: Rota responsável por retornar todos os `devs`, o retorno é um array de `[devs]`:
+
+- `POST /devs`: Rota responsável por criar `dev` dentro da plataforma. Você deve fornecer os seguintes parâmetros: `github_username` : Nome de usuário do Github, `techs` : Lista de tecnologias, separado por `,`, `latitude` e `longitude` : Coordenadas do local onde o dev se encontra:
 
 ```js
+
 {
-	"name" : "Nome Completo",
-	"email" : "teste@teste.com",
-	"password" : "123456",
-	"provider": true
+	"github_username" : "dev1903",
+	"techs": "NodeJS, React, React Native",
+	"latitude": "-23.6181725",
+	"longitude": "-46.6766297"
 }
+
 ```
+
+- `GET /search`: Rota responsável por realizar busca dentro da plataforma através de um filtro. É necessário fornecer: `techs` : Tecnologias separadas por vírgula, `latitude` e `longitude` : Localização atual do usuário que está fazendoa a busca. Obs: Todos os parâmetros devem ser enviados por `query string`:
 
 ## :memo: Licença
 

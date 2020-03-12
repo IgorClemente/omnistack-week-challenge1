@@ -38,6 +38,9 @@ A semana Omnistack 10 é um workshop direto ao ponto usando a stack Javascript: 
 
 Esse repositório tem o código fonte do Backend da aplicação DevHunter.
 
+:heavy_minus_sign: [Aplicação Web - ReactJS](https://github.com/IgorClemente/omnistack-week-challenge2)
+:heavy_minus_sign: [Aplicação Mobile - React Native](https://github.com/IgorClemente/omnistack-week-challenge3)
+
 ## :computer: Tecnologias e Ferramentas
 
 - [NodeJS](https://nodejs.org/en/)
@@ -45,6 +48,7 @@ Esse repositório tem o código fonte do Backend da aplicação DevHunter.
 - [React Native](https://reactnative.dev/?source=post_page-----6e8a2396eea1----------------------)
 - [Mongo DB](https://www.mongodb.com)
 - [Socket.io](https://socket.io)
+- [Expo](https://expo.io)
 
 ### Rotas
 

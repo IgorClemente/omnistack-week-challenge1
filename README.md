@@ -34,7 +34,16 @@
 
 ## :rocket: Descrição
 
-A semana OmniStack é um workshop direto ao ponto usando a stack Javascript: NodeJS, ReactJS, React Native. Durante essa semana é desenvolvido uma aplicação, usando NodeJS no Backend, ReactJS no frontend Web e React Native no frontend Mobile.
+A semana Omnistack 10 é um workshop direto ao ponto usando a stack Javascript: [NodeJS](https://nodejs.org/en/), [ReactJS](https://pt-br.reactjs.org), [React Native](https://reactnative.dev/?source=post_page-----6e8a2396eea1----------------------). Durante essa semana é desenvolvido uma aplicação chamada: DevHunter, através da interface WEB, é possível cadastrar um desenvolvedor e o mesmo aparece no dispositivo mobile em tempo real, informando sua localização e lista de tecnologias. Através da aplicação Mobile é possível buscar através do mapa ou filtrar a busca por tecnologias.
+
+Esse repositório tem o código fonte do Backend da aplicação DevHunter.
+
+## :rocket: Tecnologias e Ferramentas
+
+- [NodeJS](https://nodejs.org/en/)
+- [ReactJS](https://pt-br.reactjs.org)
+- [React Native](https://reactnative.dev/?source=post_page-----6e8a2396eea1----------------------)
+- [Mongo DB](https://www.mongodb.com)
 
 ### Rotas
 

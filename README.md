@@ -34,6 +34,8 @@
 
 ## :rocket: Descrição
 
+A semana OmniStack é um workshop direto ao ponto usando a stack Javascript: NodeJS, ReactJS, React Native. Durante essa semana é desenvolvido uma aplicação, usando NodeJS no Backend, ReactJS no frontend Web e React Native no frontend Mobile.
+
 ### Rotas
 
 - `GET /devs`: Rota responsável por retornar todos os `devs`, o retorno é um array de `[devs]`:
@@ -51,7 +53,9 @@
 
 ```
 
-- `GET /search`: Rota responsável por realizar busca dentro da plataforma através de um filtro. É necessário fornecer: `techs` : Tecnologias separadas por vírgula, `latitude` e `longitude` : Localização atual do usuário que está fazendoa a busca. Obs: Todos os parâmetros devem ser enviados por `query string`:
+- `GET /search`: Rota responsável por realizar busca dentro da plataforma através de um filtro. É necessário fornecer: `techs` : Tecnologias separadas por vírgula, `latitude` e `longitude` : Localização atual do usuário que está fazendoa a busca. Obs: Todos os parâmetros devem ser enviados por `query string`.
+
+## :hammer: Iniciando aplicação
 
 ## :memo: Licença
 

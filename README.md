@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="GoStack" src="wallpapers/wallpaper_main.png" width="200px" />
+    <img alt="GoStack" src="wallpapers/wallpaper_main.png" width="1000px" />
 </h1>
 
 <h3 align="center">

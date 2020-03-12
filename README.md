@@ -38,7 +38,7 @@ A semana Omnistack 10 é um workshop direto ao ponto usando a stack Javascript: 
 
 Esse repositório tem o código fonte do Backend da aplicação DevHunter.
 
-## :rocket: Tecnologias e Ferramentas
+## :computer: Tecnologias e Ferramentas
 
 - [NodeJS](https://nodejs.org/en/)
 - [ReactJS](https://pt-br.reactjs.org)
@@ -65,6 +65,22 @@ Esse repositório tem o código fonte do Backend da aplicação DevHunter.
 - `GET /search`: Rota responsável por realizar busca dentro da plataforma através de um filtro. É necessário fornecer: `techs` : Tecnologias separadas por vírgula, `latitude` e `longitude` : Localização atual do usuário que está fazendoa a busca. Obs: Todos os parâmetros devem ser enviados por `query string`.
 
 ## :hammer: Iniciando aplicação
+
+Para iniciar a aplicação, primeiro instale todas as dependências:
+
+```bash
+
+  yarn
+
+```
+
+Agora inicie a aplicação:
+
+```bash
+
+  yarn dev
+
+```
 
 ## :memo: Licença
 

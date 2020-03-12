@@ -44,6 +44,7 @@ Esse repositório tem o código fonte do Backend da aplicação DevHunter.
 - [ReactJS](https://pt-br.reactjs.org)
 - [React Native](https://reactnative.dev/?source=post_page-----6e8a2396eea1----------------------)
 - [Mongo DB](https://www.mongodb.com)
+- [Socket.io](https://socket.io)
 
 ### Rotas
 
